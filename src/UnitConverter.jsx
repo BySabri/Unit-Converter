@@ -90,7 +90,7 @@ const UnitConverter = () => {
         </select>
       </label>
       <br />
-      <p>Result: {outputValue} {outputUnit}</p>
+      <p>Result: {outputValue.toFixed(2)} {outputUnit}</p>
     </div>
   );
 };
