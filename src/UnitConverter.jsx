@@ -90,7 +90,9 @@ const UnitConverter = () => {
         </select>
       </label>
       <br />
-      <p>Result: {outputValue.toFixed(2)} {outputUnit}</p>
+      <div className="line" style={{marginTop:"10px"}}></div>
+      <p>Result: {parseFloat(outputValue).toFixed(2)} {outputUnit}</p>
+      <div className="line"></div>
     </div>
   );
 };

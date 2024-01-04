@@ -73,6 +73,14 @@ input {
 }
 
 p{
-    color: rgb(179, 245, 245);
+    color: rgb(180, 248, 253);
     font-size: 18px;
+    margin: 10px 0;
 }
+
+.line {
+    width: 60%;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
